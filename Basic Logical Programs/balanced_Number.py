@@ -39,8 +39,8 @@ else:
 # with function
 string = str(user_input)
 length = (len(string)-1)//2
-same = len(string) < 3 or sum(
-    map(int, string[:length])) == sum(map(int, string[-length:]))
+same = len(string) < 3 or sum(map(int, string[:length])) == sum(
+    map(int, string[-length:]))
 if same:
     print('Balanced')
 else:
