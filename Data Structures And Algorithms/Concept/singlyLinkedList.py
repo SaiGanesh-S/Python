@@ -58,15 +58,3 @@ class LinkedList:
             while n.ref.ref is not None:
                 n = n.ref
             n.ref = None
-
-
-c = LinkedList()
-
-c.addEnd(10)
-c.addEnd(20)
-c.addEnd(30)
-c.printList()
-print()
-c.addafter(15, 33)
-c.printList()
-20
